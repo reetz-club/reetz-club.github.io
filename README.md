@@ -1,1 +1,3 @@
-# reetz-club.github.io
+# reetz.club
+
+https://reetz.club

@@ -41,11 +41,11 @@ body {
 
 .marquee-inner span {
   float: left;
-  width: 50%;
+  width: 10%;
 }
 
 .marquee-wrapper .marquee-block {
-  width: 1250px;
+  width: 6250px;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
@@ -67,7 +67,7 @@ body {
 }
 
 .marquee-inner.to-left {
-  animation: marqueeLeft 25s linear infinite;
+  animation: marqueeLeft 125s linear infinite;
 }
 
 .marquee-item {
@@ -148,13 +148,22 @@ body {
 }
 
 .title {
+  font-size: 5vw;
+  font-weight: 600;
+  font-variation-settings: "wght" 600;
+  padding: 10px 0;
 }
 
 .byline {
+  font-size: 3vw;
+  font-weight: 600;
+  font-variation-settings: "wght" 600;
+  padding: 10px 0;
 }
 
 .description {
   font-family: "Almarena";
+  width: 65%;
 }
 
 .cta {

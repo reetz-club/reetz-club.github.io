@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "Almarena Display";
+  src: url("./fonts/Almarena-Display-Bold.otf"),
+    url("./fonts/Almarena-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: "Almarena";
+  src: url("./fonts/Almarena-Regular.otf");
+}
+
+html,
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Almarena Display";
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+}
+
+.marquee-wrapper {
+  color: #000000;
+  background: #ffffff;
+  text-align: center;
+  height: 38px;
+  font-weight: 400;
+  font-variation-settings: "wght" 400;
+  font-family: "Almarena Display Regular";
+}
+
+.marquee-wrapper .container {
+  overflow: hidden;
+  padding: 9px 0;
+}
+
+.marquee-inner span {
+  float: left;
+  width: 50%;
+}
+
+.marquee-wrapper .marquee-block {
+  width: 1250px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  background: #ffffff;
+  padding: 10px 0;
+}
+
+.marquee-inner {
+  display: block;
+  width: 200%;
+  position: absolute;
+  top: 0;
+}
+
+.marquee-inner p {
+  font-size: 20px;
+  margin: 0;
+  padding: 1.5px 0;
+}
+
+.marquee-inner.to-left {
+  animation: marqueeLeft 25s linear infinite;
+}
+
+.marquee-item {
+  width: 280px;
+  height: auto;
+  display: block;
+  margin: 0 10px;
+  float: left;
+  transition: all 0.2s ease-out;
+}
+
+.marquee-item-small {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 10px;
+  float: left;
+  transition: all 0.2s ease-out;
+}
+
+.marquee-item-medium {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 10px;
+  float: left;
+  transition: all 0.2s ease-out;
+}
+
+.marquee-item-delimiter {
+  width: 40px;
+  height: auto;
+  display: block;
+  float: left;
+  transition: all 0.2s ease-out;
+}
+
+@keyframes marqueeLeft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  top: 38px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  width: 80%;
+  display: flex;
+  height: 8%;
+  font-weight: 400;
+  font-variation-settings: "wght" 400;
+  font-size: 1vw;
+  text-align: left;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.title {
+}
+
+.byline {
+}
+
+.description {
+  font-family: "Almarena";
+}
+
+.cta {
+}
+
+.get-started {
+}
+
+.discord {
+}
+
+@media screen and (max-width: 700px) {
+  html,
+  body {
+    overflow-y: scroll;
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .main {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .marquee {
+  }
+
+  .header {
+  }
+
+  .logo {
+  }
+
+  .title {
+  }
+
+  .byline {
+  }
+
+  .description {
+  }
+
+  .cta {
+  }
+
+  .get-started {
+  }
+
+  .discord {
+  }
+}

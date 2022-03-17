@@ -117,7 +117,6 @@ body {
 .content {
   position: absolute;
   top: 38px;
-  height: 100%;
   width: 70%;
   margin-left: 15%;
   justify-content: center;
@@ -176,17 +175,23 @@ body {
   padding-left: 20px;
 }
 
-.get-started {
+a.get-started {
+  text-decoration: none;
+  color: initial;
   width: 150px;
   padding: 10px;
   margin: 5px;
   border-radius: 50px;
   border: 2px solid #ffffff;
+  background-color: #ffffff;
   font-size: 16px;
   font-family: "Almarena Display";
+  text-align: center;
 }
 
-.discord {
+a.discord {
+  text-decoration: none;
+  color: initial;
   width: 150px;
   padding: 10px;
   margin: 5px;
@@ -196,6 +201,7 @@ body {
   background-color: #000000;
   font-size: 16px;
   font-family: "Almarena Display";
+  text-align: center;
 }
 
 @media screen and (min-width: 6000px) {
@@ -204,7 +210,7 @@ body {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   html,
   body {
     overflow-y: scroll;
@@ -245,11 +251,19 @@ body {
 
   .cta {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
+    margin-left: 0;
+    padding-left: 0;
   }
 
-  .discord {
+  a.discord {
     margin-top: 20px;
+    width: 250px;
+  }
+
+  a.get-started {
+    width: 250px;
   }
 }

@@ -118,6 +118,7 @@ body {
 .content {
   position: absolute;
   top: 38px;
+  height: 100%;
   width: 70%;
   margin-left: 15%;
   justify-content: center;
@@ -229,10 +230,6 @@ a.discord {
     top: 0;
     width: 100%;
     margin: 0 auto;
-  }
-
-  .content {
-    margin-bottom: 50px;
   }
 
   .logo {

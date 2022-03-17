@@ -231,6 +231,10 @@ a.discord {
     margin: 0 auto;
   }
 
+  .content {
+    margin-bottom: 50px;
+  }
+
   .logo {
     height: 200px;
   }

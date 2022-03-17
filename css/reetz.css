@@ -1,9 +1,11 @@
 @font-face {
   font-family: "Almarena Display";
-  src: url("./fonts/Almarena-Display-Bold.otf"),
-    url("./fonts/Almarena-Display-Regular.otf");
+  src: url("./fonts/Almarena-Display-Bold.otf");
 }
-
+@font-face {
+  font-family: "Almarena Display Regular";
+  src: url("./fonts/Almarena-Display-Regular.otf");
+}
 @font-face {
   font-family: "Almarena";
   src: url("./fonts/Almarena-Regular.otf");
@@ -29,8 +31,6 @@ body {
   background: #ffffff;
   text-align: center;
   height: 38px;
-  font-weight: 400;
-  font-variation-settings: "wght" 400;
   font-family: "Almarena Display Regular";
 }
 
@@ -62,8 +62,9 @@ body {
 
 .marquee-inner p {
   font-size: 20px;
+  line-height: 20.5px;
   margin: 0;
-  padding: 1.5px 0;
+  padding: 1px 0;
 }
 
 .marquee-inner.to-left {

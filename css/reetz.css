@@ -1,21 +1,13 @@
 @font-face {
-  font-family: "Almarena Display";
-  src: url("./fonts/Almarena-Display-Bold.otf");
-}
-@font-face {
-  font-family: "Almarena Display Regular";
-  src: url("./fonts/Almarena-Display-Regular.otf");
-}
-@font-face {
-  font-family: "Almarena";
-  src: url("./fonts/Almarena-Regular.otf");
+  font-family: "Inter";
+  src: url("./fonts/Inter-VariableFont_opsz,wght.ttf");
 }
 
 html,
 body {
   background-color: #000000;
   color: #ffffff;
-  font-family: "Almarena Display";
+  font-family: "Inter";
   height: 100%;
   margin: 0;
   overflow: hidden;
@@ -31,7 +23,7 @@ body {
   background: #ffffff;
   text-align: center;
   height: 38px;
-  font-family: "Almarena Display Regular";
+  font-family: "Inter";
 }
 
 .marquee-wrapper .container {
@@ -164,7 +156,7 @@ body {
 
 .description {
   display: flex;
-  font-family: "Almarena";
+  font-family: "Inter";
   line-height: 132.5%;
 }
 
@@ -187,7 +179,7 @@ a.get-started {
   border: 2px solid #ffffff;
   background-color: #ffffff;
   font-size: 16px;
-  font-family: "Almarena Display";
+  font-family: "Inter";
   text-align: center;
 }
 
@@ -202,7 +194,7 @@ a.discord {
   color: #ffffff;
   background-color: #000000;
   font-size: 16px;
-  font-family: "Almarena Display";
+  font-family: "Inter";
   text-align: center;
 }
 
